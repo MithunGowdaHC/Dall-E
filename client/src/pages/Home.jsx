@@ -4,15 +4,18 @@ import FormField from '../components/FormField'
 
 const Home = () => {
 
-  const [state, setState] = useState()
-  useEffect(()=>{
-
-  },[])
+  
+  const [ loading, setLoading] = useState(false)
+  const [ allPosts, setAllPosts] = useState([])
   return (
-    <div>
-      <Card/>
-      <FormField/>
-    </div>
+    <section className=' max-w-7xl'>
+      <div>
+        <h1 className=' text-[#222328 ] font-extrabold'>
+          The Community Showcase
+        </h1>
+      </div>
+
+    </section>
   )
 }
 
