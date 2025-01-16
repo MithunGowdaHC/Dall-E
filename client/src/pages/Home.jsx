@@ -10,9 +10,10 @@ const Home = () => {
   return (
     <section className=' max-w-7xl'>
       <div>
-        <h1 className=' text-[#222328 ] font-extrabold'>
+        <h1 className=' text-[#222328] text-[32px] font-extrabold'>
           The Community Showcase
         </h1>
+        <p className=' mt-2 text-[#66e75] text-[14px]  max  '></p>
       </div>
 
     </section>
